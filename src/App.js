@@ -8,9 +8,10 @@ function App() {
       <Typography>Typography : normale</Typography>
       <br />
       <Typography title={true}>Typography: title</Typography>
-      <Card title="title" image="./codeim.jpg">
-        card
-      </Card>
+      <Card title="title" image="./SimpleCode.jpg"></Card>
+      <Card title="title" image="./SimpleCode.jpg"></Card>
+      <Card title="title" image="./SimpleCode.jpg"></Card>
+      <Card title="title" image="./SimpleCode.jpg"></Card>
     </>
   );
 }
