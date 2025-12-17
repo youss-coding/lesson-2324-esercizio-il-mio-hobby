@@ -1,15 +1,15 @@
-import "./Card.css";
-import Typography from "./Typography";
+import './Card.css';
+import Typography from './Typography';
 
 function Card({ children, image, title }) {
   return (
     <div className="card">
-      <img src={image} className="img" />
+      <img src={image} className="img" alt="codice" />
       <div className="card-body">
-        <Typography componentType="h3" color={{ color: "white" }}>
+        <Typography componentType="h3" color={{ color: 'white' }}>
           {title}
         </Typography>
-        <Typography componentType="paragraph" color={{ color: "white" }}>
+        <Typography componentType="paragraph" color={{ color: 'white' }}>
           {children}
         </Typography>
       </div>

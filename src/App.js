@@ -8,17 +8,11 @@ function App() {
     <>
       <Typography>Typography : normale</Typography>
       <br />
-      <Typography color={Colors.primary}>
-        Typography : color: primary
-      </Typography>
+      <Typography color={Colors.primary}>Typography : color: primary</Typography>
       <br />
-      <Typography color={Colors.secondary}>
-        Typography : color: secondary
-      </Typography>
+      <Typography color={Colors.secondary}>Typography : color: secondary</Typography>
       <br />
-      <Typography color={Colors.inverse}>
-        Typography : color: inverce
-      </Typography>
+      <Typography color={Colors.inverse}>Typography : color: inverce</Typography>
       <br />
       <Typography componentType="h1">Typography: title</Typography>
       <Card title="card : title" image="./SimpleCode.jpg">
