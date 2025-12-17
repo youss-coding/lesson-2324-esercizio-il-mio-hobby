@@ -1,6 +1,6 @@
 import "./Typography.css";
 
-function Typography({ children, componentType, color = { color: "black" } }) {
+function Typography({ children, componentType, color = { color: "black" }, background = { color: "white" } }) {
   switch (componentType) {
     case "h1":
       return (
@@ -22,7 +22,7 @@ function Typography({ children, componentType, color = { color: "black" } }) {
       );
     case "paragraph":
       return (
-        <p style={color} className="component-h1">
+        <p style={color} className="component-h3">
           {children}
         </p>
       );
