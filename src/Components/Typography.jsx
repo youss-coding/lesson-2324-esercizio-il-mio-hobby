@@ -1,32 +1,37 @@
-import "./Typography.css";
+import Colors from './colors';
+import './Typography.css';
 
-function Typography({ children, componentType, color = { color: "black" }, background = { color: "white" } }) {
+function Typography({ children, componentType, color = Colors.primary, background = Colors.backgroundDefault }) {
+  const style = {
+    ...color,
+    ...background,
+  };
   switch (componentType) {
-    case "h1":
+    case 'h1':
       return (
         <span style={color} className="component-h1">
           {children}
         </span>
       );
-    case "h3":
+    case 'h3':
       return (
         <span style={color} className="component-h3">
           {children}
         </span>
       );
-    case "h5":
+    case 'h5':
       return (
         <span style={color} className="component-h5">
           {children}
         </span>
       );
-    case "paragraph":
+    case 'paragraph':
       return (
         <p style={color} className="component-h3">
           {children}
         </p>
       );
-    case "span":
+    case 'span':
     default:
       return <span style={color}>{children}</span>;
   }
