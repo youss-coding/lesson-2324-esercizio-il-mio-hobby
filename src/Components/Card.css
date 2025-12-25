@@ -4,17 +4,15 @@
   height: 182px;
   padding: 8px;
   border-radius: 12px;
-  font-family: " roboto, sans-serif";
+  font-family: ' roboto, sans-serif';
   margin: 16px;
 }
 
 .text {
-  color: white;
   font-size: 14px;
 }
 
 .title {
-  color: white;
   text-align: center;
   font-size: 18px;
   font-weight: bold;

@@ -12,12 +12,11 @@ function App() {
       <br />
       <Typography color={Colors.secondary}>Typography : color: secondary</Typography>
       <br />
-      <Typography color={Colors.inverse}>Typography : color: inverce</Typography>
+      <Typography color={Colors.inverse} background={Colors.backgroundInverse}>Typography : color: inverse</Typography>
       <br />
+      <Typography>Prova</Typography>
       <Typography componentType="h1">Typography: title</Typography>
-      <Card title="card : title" image="./SimpleCode.jpg">
-        Card
-      </Card>
+      <Card title="card : Title" image="./SimpleCode.jpg">Card</Card>
       <Card title="title" image="./SimpleCode.jpg"></Card>
     </>
   );
